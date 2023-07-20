@@ -1,0 +1,100 @@
+main {
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    background-color: rgb(77, 6, 85);
+}
+
+.cab {
+    width: 97%;
+    margin: auto;
+    height: 25%;
+    background-color: rgb(195, 45, 190);
+}
+
+.corpo {
+    display: flex;
+    width: 97%;
+    margin: auto;
+    height: 74%;
+    background-color: rgb(122, 29, 119);
+}
+
+.esquerdo {
+    width: 48%;
+    margin: auto;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.direito {
+    width: 48%;
+    margin: auto;
+    height: 100%;
+    background-color: rgb(41, 141, 169);
+}
+
+.cima { 
+    width: 100%;
+    height: 70%;
+    background-color: rgb(222, 181, 33);
+}
+
+.baixo { 
+    width: 100%;
+    height: 30%;
+    background-color: rgb(224, 43, 11);
+}
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    background-color: rgb(32, 8, 54);
+}
+
+.container1 > div {
+    background-color: purple;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+    gap: 10px;    
+}
+
+.div3 {
+    background-color: pink;
+}
+
+.container3 > div {
+    background-color: rgb(255, 0, 136);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+}
+
+.container4 > div { 
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+} */

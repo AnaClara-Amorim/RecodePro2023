@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.header {  
+        padding: 60px;    
+        text-align:center;    
+        background: linear-gradient(90deg, rgba(26,188,156,1) 0%, rgba(94,12,222,1) 0%, rgba(0,212,255,1) 100%);    
+        color: white;    
+    }
+
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fakeimg {
+    background-color: #828480; 
+    width: 100%; 
+    padding: 20px; 
+ }
+
+ .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Coluna principal */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Altera a cor dos itens do menu cor ao passar o mouse */
+
+.navbar a:hover {
+    background-color: #fcfcf0;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {  
+
+    .row, .navbar {    
+           flex-direction: column;    
+       }    
+    }

@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex; /* É preciso declarar no elemento pai */
+    flex-direction: row; /* row é o padrão */
+    flex-wrap: wrap; /* Não deixa criar barra de rolagem */
+    justify-content: center;
+    background-color: blueviolet;
+    height: 400px;
+    align-items: center; /* não deixa o item ficar esticado, strech é o padrão */
+}
+
+.flex-container > div {
+
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+}

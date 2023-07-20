@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    height: 100vh; /* view height é a visualização da altura do seu dispositivo */
+    box-shadow: black 0px 7px 29px  0px;
+    margin: auto;
+}
+
+header {
+    height: 10%;
+    padding: 10px;
+    display: flex; /* só pegou nos elementos filhos, ou seja, na ul */
+    align-items: center; /* centralização vertical */
+    justify-content: center; /* centralização horizontal */
+    background-color: plum;
+}
+
+header ul { /* aqui o display passou para as ancoras, pois são filhas */
+    display: flex; 
+    width: 100%;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    margin-top: 35px;                
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(128, 0, 128, 0.548);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.2s;
+}
+
+.grid-container {
+    display: grid; /* também tem que passar primeiro no pai */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ;  usa-se fr (fração da tela)  */
+    grid-template-columns: repeat(4, 1fr); /* usa-se fr (fração da tela considerando onde ele está inserido). repeat para não ter que digitar várias vezes */
+    gap: 10px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.celula {
+    background-color: gray;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+#caixa1 {
+    background-color: gray;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+grid-column: 1/5;
+}

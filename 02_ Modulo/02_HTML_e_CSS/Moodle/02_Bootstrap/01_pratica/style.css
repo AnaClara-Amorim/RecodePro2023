@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: purple;
+  color: #595959;
+}
+
+.container-fluid {
+  background-color: greenyellow;
+  color: #8a8a8a;
+}
