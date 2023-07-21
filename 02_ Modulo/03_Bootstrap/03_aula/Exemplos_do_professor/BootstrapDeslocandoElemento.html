@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Aula Bootstrap - Prof Flavio Mota</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+    <style>
+        .destaque {
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        .linhaMaior{
+            height: 150px;
+            background-color: silver;
+        }
+        .colunaNormal{
+            height: 50px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <div class="container destaque">
+        <div class="row linhaMaior"> 
+            <div class="col-3 destaque colunaNormal offset-6"> 
+                <p>Coluna 1</p>
+            </div> 
+            <div class="col-3 destaque colunaNormal"> 
+                <p>Coluna 2</p>
+            </div>             
+        </div>      
+    </div>
+    <!-- Scripts JS -->
+    <script src='js/jquery.js'></script>
+    <script src='js/popper.js'></script>
+    <script src='js/bootstrap.js'></script>
+</body>
+
+</html>
