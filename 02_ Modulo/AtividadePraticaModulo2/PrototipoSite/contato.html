@@ -9,34 +9,74 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- Chamando bootstrap.css -->
 
-    <!-- Teste de fonte -->
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <!-- Teste de fonte -->
   </head>
   <body>
     <!-- Inicio navbar -->
     <div class="container-fluid" class="navebararredondada">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-           <div class="container-fluid">
-             <a class="navbar-brand" href="#">Navbar</a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav">
-                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                 <a class="nav-link" href="#">Features</a>
-                 <a class="nav-link" href="#">Pricing</a>
-                 <a class="nav-link disabled">Disabled</a>
-               </div>
-             </div>
-           </div>
-         </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Destinos Amorim</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="destino.html">Destinos</a>
+              <a class="nav-link" href="promocoes.html">Promoções</a>
+              <a class="nav-link" href="contato.html">Contato</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
     <!-- Final navbar -->
-    
+
+    <main>
+      <h2 class="text-center">
+        Contate-nos!
+      </h2> <br>
+
+      <!-- Começo do formulário -->
+      <div class="formulario">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Primeiro nome" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Último nome" aria-label="Last name">
+          </div>
+        </div><br>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Endereço de email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Texto:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="btn btn-primary" type="button">Button</button>
+        </div>
+      </div>
+      <!-- Fim do formulário -->
+    </main>
+
+    <footer class="text-center fixed-bottom">
+      <p>Footer aqui para editar</p>
+    </footer>    
 
     <script src="js/bootstrap.js"></script>
     <!-- Chamando bootstrap.js -->
