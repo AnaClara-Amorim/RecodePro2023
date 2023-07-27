@@ -43,7 +43,3 @@ else if (numero ==5)
   console.log("Desligar")
 else 
   console.log("Comando inválido")
-
-  
-
-
