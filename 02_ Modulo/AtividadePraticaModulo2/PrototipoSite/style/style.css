@@ -66,8 +66,9 @@ footer {
 }
 
 .carousel { 
-  width: 70%;
+  width: 40%;
   margin: auto;
+  margin-bottom: 60px;
 }
 
 .paragrafo p {
@@ -77,3 +78,19 @@ footer {
 .img-redes > img { 
   width: 35px;
 }
+
+.divisao1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px; 
+}
+
+#aviao {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
