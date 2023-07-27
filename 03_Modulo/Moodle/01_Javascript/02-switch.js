@@ -1,3 +1,5 @@
+// Estrutura SWITCH
+
 let numero = 1; 
 
 switch (numero) {

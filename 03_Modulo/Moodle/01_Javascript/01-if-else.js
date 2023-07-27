@@ -1,4 +1,4 @@
-// Estrutura simples
+// Estrutura IF ELSE SIMPLES
 
 let num = 5;
 
@@ -10,7 +10,7 @@ if (num > 10) {
   console.log("O número não é maior que 10");
 }
 
-// Estrutura com aninhamento
+// Estrutura IF ELSE COM ANINHAMENTO
 
 let usuario1 = "Ana";
 let email = "ana@recode.com";
