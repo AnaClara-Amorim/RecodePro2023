@@ -10,12 +10,13 @@
     alert (nome[index])
  } */
 
- let exemplo = [];
+ let nome = []
 
-for (let i = 0; i < 3; i++);{
-    exemplo[i] = prompt("Digite um nome");
-}
-
-for (let index = 0; index < exemplo.length; index++) {
-    alert (nome[index])
-}
+ for (let i = 0; i < 5; i++) { 
+     nome[i] = Number(prompt("Digite um nome")) 
+ }  
+ 
+ nome.sort() 
+ for (let index = 0; index < nome.length; index++) {   
+     alert(nome[index])     
+ }
