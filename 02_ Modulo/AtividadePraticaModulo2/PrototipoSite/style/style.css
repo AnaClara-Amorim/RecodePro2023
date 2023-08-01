@@ -29,6 +29,7 @@ main {
 
 span {
   font-style: italic;
+  font-size: larger;
 }
 
 .texto {
@@ -41,19 +42,31 @@ span {
     margin-bottom: 10px;
 }
 
-.cardss {
+/* .cardss {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 5px;
+} */
+
+/* ----- Paises -----*/
+
+.paises{
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px 0px 40px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0px 50px 50px 0px;
 }
 
 .card:hover {
-  transform: scale(0.9,0.9);
+  transform: scale(1.1, 1.1);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.141),
 		-5px -5px 30px 15px rgba(0, 0, 0, 0.141);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 footer {
@@ -147,4 +160,5 @@ footer {
   text-indent: 20px; /* AJUSTAR DPS PRA MIDIAS */
   font-size: 20px;
 }
+
 
