@@ -7,6 +7,7 @@
   --cor1: #EBF3FC;
   --cor2: #171b21;
   --cor3: #40413e63;
+  --cor4: #9ca3d1;
 }
 
 * {
@@ -53,7 +54,7 @@ span {
 
 /* ----- Paises -----*/
 
-.paises{
+.paises {
   display: flex;
   justify-content: center;
   padding: 0px 40px 0px 40px;
@@ -67,6 +68,19 @@ span {
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.141),
 		-5px -5px 30px 15px rgba(0, 0, 0, 0.141);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.estados {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 0px 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0px 50px 50px 0px;
+}
+
+.taxado{
+  text-decoration: line-through;
 }
 
 footer {
