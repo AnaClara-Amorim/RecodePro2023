@@ -1,0 +1,18 @@
+/* let x = document.getElementById("demo") // seleciona por id
+
+function cor() {
+    x.style.color = "red"
+}  */
+
+// adicionando event listner por boa prática
+document.getElementById("exe").addEventListener("click", somar).value = soma
+
+function somar() {
+    let valor1 = Number(document.getElementById("v1").value)
+    let valor2 = Number(document.getElementById("v2").value) 
+
+    let soma = valor1 + valor2
+    document.getElementById("r").value = soma
+}
+
+
