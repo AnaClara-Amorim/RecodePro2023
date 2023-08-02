@@ -17,4 +17,13 @@ alert("Sobrenome: " + sobrenome[1])
 
 // Funções matemáticas
 
+/* let valor = Number(prompt("Digite um valor: "))
+alert(Math.sqrt(valor))
+alert(Math.pow(8,3)) */
 
+let v1 = Number(prompt("Digite o primeiro valor: "))
+let v2 = Number(prompt("Digite o segundo valor: "))
+alert(Math.pow(v1, v2))
+
+let v3 = Number(prompt("Digite um valor: "))
+alert(Math.ceil(v3))
