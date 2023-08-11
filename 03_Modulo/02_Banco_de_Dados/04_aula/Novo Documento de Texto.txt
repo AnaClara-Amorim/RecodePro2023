@@ -1,0 +1,5 @@
+N:N -> Nova tabela
+
+1:N -> Adicionar FK no lado N
+
+1:1 -> Unir as tabelas
