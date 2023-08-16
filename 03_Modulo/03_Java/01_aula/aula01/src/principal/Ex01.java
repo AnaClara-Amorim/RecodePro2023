@@ -9,8 +9,12 @@ public class Ex01 {
 		// impostos de 45%, escrever um código para processar e mostrar o custo
 		//final ao consumidor
 		
-		double porcentagemDistribuidor = 0.28;
-		double impostos = 0.28;
+		double custoFabrica = 10.000;
+		double precoDistribuidor = 0.28;
+		double impostos = 0.45;
+		double carroNovo = custoFabrica +  precoDistribuidor + impostos;
+		System.out.println("O custo final ao consumidor é de R$: " + carroNovo);
+		
 		
 	}
 
