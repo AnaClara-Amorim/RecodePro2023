@@ -41,6 +41,7 @@ public class Contato {
  
 	public void setDataCadastro(Date dataCadastro) {
 		this.dataCadastro = dataCadastro;
+
 	}
 
 }

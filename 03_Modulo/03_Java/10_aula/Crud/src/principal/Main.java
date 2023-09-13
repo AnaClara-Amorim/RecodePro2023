@@ -17,20 +17,11 @@ public class Main {
 		
 		//contatoDAO.removeById(1);
 		
-		for (Contato c : contatoDAO.getContatos()) {
-
-			 
-
+		for (Contato c : contatoDAO.getContatos()) {	 
 			System.out.println("NOME: " + c.getNome());
-
 			System.out.println("IDADE: " + c.getIdade());
-
 			System.out.println("DATA CADASTRO: " + c.getDataCadastro());
-
- 
-
 			System.out.println("----------------------------------- ");
-
 		}	
 		
 
