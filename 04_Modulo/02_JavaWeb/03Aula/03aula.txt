@@ -1,0 +1,225 @@
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+ 
+
+@WebServlet("/ConverterMoedaServlet")
+public class ConverterMoedaServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+ 
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Obtenha o valor em Real do formulário
+        String valorEmRealStr = request.getParameter("valor");
+        double valorEmReal = Double.parseDouble(valorEmRealStr);
+
+ 
+
+        // Faça a conversão para quatro moedas (exemplo)
+        double valorEmDolar = valorEmReal / 5.30; // Taxa de conversão para dólar
+        double valorEmEuro = valorEmReal / 6.20;  // Taxa de conversão para euro
+        double valorEmLibra = valorEmReal / 7.40; // Taxa de conversão para libra
+        double valorEmBitcoin = valorEmReal / 0.000001; // Taxa de conversão para bitcoin
+
+ 
+
+        // Armazene os resultados em atributos de requisição
+        request.setAttribute("valorEmDolar", valorEmDolar);
+        request.setAttribute("valorEmEuro", valorEmEuro);
+        request.setAttribute("valorEmLibra", valorEmLibra);
+        request.setAttribute("valorEmBitcoin", valorEmBitcoin);
+
+ 
+
+        // Encaminhe para a página JSP de resultado
+        request.getRequestDispatcher("resultado.jsp").forward(request, response);
+    }
+}
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
+	pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Insert title here</title>
+
+</head>
+
+<body>
+
+	<h1>Resultado da Conversão</h1>
+
+ 
+
+	<p>
+
+		Valor em Dólar: R$
+
+		<%=request.getAttribute("valorEmDolar")%></p>
+
+	<p>
+
+		Valor em Euro: R$
+
+		<%=request.getAttribute("valorEmEuro")%></p>
+
+	<p>
+
+		Valor em Libra: R$
+
+		<%=request.getAttribute("valorEmLibra")%></p>
+
+	<p>
+
+		Valor em Bitcoin: R$
+
+		<%=request.getAttribute("valorEmBitcoin")%></p>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Conversor de Moeda</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>Conversor de Moeda</h1>
+
+    <form action="./ConverterMoedaServlet" method="post">
+
+        <label for="valor">Valor em Real (R$):</label>
+
+        <input type="text" id="valor" name="valor" required>
+
+        <input type="submit" value="Converter">
+
+    </form>
+
+</body>
+
+</html>
+
+@charset "ISO-8859-1";
+
+ 
+
+/* Estilo para a página principal (index.html) */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+h1 {
+
+    text-align: center;
+
+    color: #333;
+
+}
+
+ 
+
+form {
+
+    max-width: 300px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background-color: #fff;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+input[type="text"] {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+ 
+
+input[type="submit"] {
+
+    background-color: #333;
+
+    color: #fff;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+/* Estilo para a página de resultado (resultado.jsp) */
+
+p {
+
+    font-size: 18px;
+
+    color: #333;
+
+}
