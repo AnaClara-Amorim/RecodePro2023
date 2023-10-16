@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Lista de Jogadores</title>
+	</head>
+	<body>
+		<h1>Lista de Jogadores</h1>
+		
+		<ul>
+			<li th:each = "jogador : ${jogadores}">
+				<span th:text="${jogador.numero}"></span>
+			</li>
+			<li th:each = "jogador : ${jogadores}">
+				<span th:text="${jogador.nome}"></span>
+			</li>
+		</ul>
+		
+		<tr th:each="jogador: ${jogadores}">
+			<td th:text="jogador.numero"></td>
+			<td th:text="jogador.nome"></td>
+		</tr>
+	</body>
+</html>

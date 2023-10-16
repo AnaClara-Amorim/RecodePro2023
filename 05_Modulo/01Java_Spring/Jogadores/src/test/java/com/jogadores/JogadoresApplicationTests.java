@@ -1,10 +1,10 @@
-package br.org.recode.Aula01Spring;
+package com.jogadores;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Aula01SpringApplicationTests {
+class JogadoresApplicationTests {
 
 	@Test
 	void contextLoads() {
