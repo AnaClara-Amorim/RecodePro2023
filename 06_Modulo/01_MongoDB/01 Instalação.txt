@@ -1,0 +1,5 @@
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/try/download/shell
+https://www.mongodb.com/try/download/compass
+
+https://cdiong.sharepoint.com/sites/RP-202306-AULAST1ET2/_layouts/15/stream.aspx?id=%2Fsites%2FRP-202306-AULAST1ET2%2FDocumentos%20Compartilhados%2FMódulo%205%20-%20Banco%20de%20Dados%20NoSQL%2FGravando%202023-11-24%20095729%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview

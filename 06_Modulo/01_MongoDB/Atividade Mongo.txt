@@ -1,0 +1,57 @@
+use escola
+
+db.createCollection("alunos")
+
+db.alunos.insertOne({ nome: "Flavio", idade: 40, curso: "Full Stack" })
+
+db.alunos.insertOne({ nome: "João", idade: 20, curso: "Engenharia" })
+
+db.alunos.insertOne({ nome: "Maria", idade: 22, curso: "Ciência da Computação" })
+
+db.alunos.insertMany([
+  { nome: "Jeferson", idade: 35, curso: "Full Stack" },
+  { nome: "Emily", idade: 51, curso: "Full Stack" },
+  { nome: "Pedro", idade: 18, curso: "Full Stack" }
+])
+
+db.alunos.updateOne(
+  { nome: "Flavio" },
+  { $set: { cidade: "São Paulo" } }
+)
+
+db.alunos.find()
+
+db.alunos.find({ curso: "Full Stack" })
+
+db.alunos.find({ nome: "Pedro" })
+
+db.alunos.countDocuments()
+
+db.alunos.updateOne(
+  { nome: "Emily" },
+  { $set: { idade: 41 } }
+);
+
+db.alunos.updateMany(
+  { curso: "Full Stack" },
+  { $set: { curso: "MongoDB" } }
+)
+
+
+db.alunos.updateMany(
+  {},
+  { $set: { disciplina: "Programacao" } }
+)
+
+db.alunos.deleteOne({ nome: "João" })
+
+db.alunos.insertMany([
+  { nome: "Gabriel", idade: 10, curso: "Full Stack" },
+  { nome: "Bruna", idade: 20, curso: "Full Stack" }
+])
+
+db.alunos.find()
+
+db.alunos.deleteMany({ disciplina: { $exists: false } })
+
+db.alunos.find()
