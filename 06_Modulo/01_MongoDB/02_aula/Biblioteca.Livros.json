@@ -1,0 +1,678 @@
+[{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de23"
+  },
+  "titulo": "Aventuras no Mundo MongoDB",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Alice Silva",
+    "Bob Oliveira",
+    "Charlie Santos"
+  ],
+  "genero": "Tecnologia",
+  "editora": "Tech Books",
+  "avaliacoes": [
+    {
+      "usuario": "Joao123",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Maria456",
+      "pontuacao": 5
+    },
+    {
+      "usuario": "Carlos789",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de24"
+  },
+  "titulo": "Aventuras no Mundo MongoDB",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Alice Silva",
+    "Bob Oliveira",
+    "Charlie Santos"
+  ],
+  "genero": "Tecnologia",
+  "editora": "Tech Books",
+  "avaliacoes": [
+    {
+      "usuario": "Joao123",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Maria456",
+      "pontuacao": 5
+    },
+    {
+      "usuario": "Carlos789",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de25"
+  },
+  "titulo": "Segredos da Noite Estrelada",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Emily Garcia",
+    "Daniel Lima"
+  ],
+  "genero": "Ficção",
+  "editora": "Literária",
+  "avaliacoes": [
+    {
+      "usuario": "Ana555",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Pedro789",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Larissa123",
+      "pontuacao": 3.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de26"
+  },
+  "titulo": "Viagem pelo Espaço Sideral",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Gabriel Oliveira",
+    "Sophia Santos"
+  ],
+  "genero": "Ciência",
+  "editora": "Cosmos Books",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas999",
+      "pontuacao": 5
+    },
+    {
+      "usuario": "Isabel456",
+      "pontuacao": 4.7
+    },
+    {
+      "usuario": "Miguel789",
+      "pontuacao": 4.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de27"
+  },
+  "titulo": "Aventuras no Mundo MongoDB",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Alice Silva",
+    "Bob Oliveira",
+    "Charlie Santos"
+  ],
+  "genero": "Tecnologia",
+  "editora": "Tech Books",
+  "avaliacoes": [
+    {
+      "usuario": "Joao123",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Maria456",
+      "pontuacao": 5
+    },
+    {
+      "usuario": "Carlos789",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de28"
+  },
+  "titulo": "Segredos da Noite Estrelada",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Emily Garcia",
+    "Daniel Lima"
+  ],
+  "genero": "Ficção",
+  "editora": "Literária",
+  "avaliacoes": [
+    {
+      "usuario": "Ana555",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Pedro789",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Larissa123",
+      "pontuacao": 3.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de29"
+  },
+  "titulo": "Viagem pelo Espaço Sideral",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Gabriel Oliveira",
+    "Sophia Santos"
+  ],
+  "genero": "Ciência",
+  "editora": "Cosmos Books",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas999",
+      "pontuacao": 5
+    },
+    {
+      "usuario": "Isabel456",
+      "pontuacao": 4.7
+    },
+    {
+      "usuario": "Miguel789",
+      "pontuacao": 4.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2a"
+  },
+  "titulo": "A Arte da Cozinha Italiana",
+  "ano_publicacao": 2021,
+  "autores": [
+    "Luca Rossi",
+    "Giulia Conti"
+  ],
+  "genero": "Culinária",
+  "editora": "Gastronomia Press",
+  "avaliacoes": [
+    {
+      "usuario": "Elena111",
+      "pontuacao": 4.6
+    },
+    {
+      "usuario": "Marco222",
+      "pontuacao": 4.9
+    },
+    {
+      "usuario": "Sophie333",
+      "pontuacao": 4.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2b"
+  },
+  "titulo": "Histórias de Fantasmas",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Fernanda Silva",
+    "Ricardo Oliveira"
+  ],
+  "genero": "Suspense",
+  "editora": "Mistério Livros",
+  "avaliacoes": [
+    {
+      "usuario": "Luis444",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Camila555",
+      "pontuacao": 3.7
+    },
+    {
+      "usuario": "Pedro666",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2c"
+  },
+  "titulo": "Segredos da Noite Estrelada",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Emily Garcia",
+    "Daniel Lima"
+  ],
+  "genero": "Ficção",
+  "editora": "Literária",
+  "avaliacoes": [
+    {
+      "usuario": "Ana555",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Pedro789",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Larissa123",
+      "pontuacao": 3.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2d"
+  },
+  "titulo": "A Última Fronteira",
+  "ano_publicacao": 2021,
+  "autores": [
+    "Sophie Santos",
+    "Miguel Oliveira"
+  ],
+  "genero": "Aventura",
+  "editora": "Exploradora",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas222",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Isabel444",
+      "pontuacao": 3.8
+    },
+    {
+      "usuario": "Gabriel555",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2e"
+  },
+  "titulo": "O Enigma do Tempo",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Ricardo Silva",
+    "Camila Oliveira"
+  ],
+  "genero": "Mistério",
+  "editora": "Enigmas",
+  "avaliacoes": [
+    {
+      "usuario": "Elena123",
+      "pontuacao": 4.7
+    },
+    {
+      "usuario": "Marco456",
+      "pontuacao": 4.9
+    },
+    {
+      "usuario": "Fernanda789",
+      "pontuacao": 3.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de2f"
+  },
+  "titulo": "A Ciência da Felicidade",
+  "ano_publicacao": 2022,
+  "autores": [
+    "João Santos",
+    "Isabela Lima"
+  ],
+  "genero": "Autoajuda",
+  "editora": "Bem-Estar",
+  "avaliacoes": [
+    {
+      "usuario": "Luis111",
+      "pontuacao": 4
+    },
+    {
+      "usuario": "Amanda222",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Carlos333",
+      "pontuacao": 4.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de30"
+  },
+  "titulo": "Heróis do Futuro",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Lucia Oliveira",
+    "Victor Silva"
+  ],
+  "genero": "Fantasia",
+  "editora": "Épica",
+  "avaliacoes": [
+    {
+      "usuario": "Sophia444",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Andre555",
+      "pontuacao": 3.7
+    },
+    {
+      "usuario": "Gabriel666",
+      "pontuacao": 4.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de31"
+  },
+  "titulo": "Segredos da Noite Estrelada",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Emily Garcia",
+    "Daniel Lima"
+  ],
+  "genero": "Ficção",
+  "editora": "Literária",
+  "avaliacoes": [
+    {
+      "usuario": "Ana555",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Pedro789",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Larissa123",
+      "pontuacao": 3.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de32"
+  },
+  "titulo": "A Última Fronteira",
+  "ano_publicacao": 2021,
+  "autores": [
+    "Sophie Santos",
+    "Miguel Oliveira"
+  ],
+  "genero": "Aventura",
+  "editora": "Exploradora",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas222",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Isabel444",
+      "pontuacao": 3.8
+    },
+    {
+      "usuario": "Gabriel555",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de33"
+  },
+  "titulo": "O Enigma do Tempo",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Ricardo Silva",
+    "Camila Oliveira"
+  ],
+  "genero": "Mistério",
+  "editora": "Enigmas",
+  "avaliacoes": [
+    {
+      "usuario": "Elena123",
+      "pontuacao": 4.7
+    },
+    {
+      "usuario": "Marco456",
+      "pontuacao": 4.9
+    },
+    {
+      "usuario": "Fernanda789",
+      "pontuacao": 3.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de34"
+  },
+  "titulo": "A Ciência da Felicidade",
+  "ano_publicacao": 2022,
+  "autores": [
+    "João Santos",
+    "Isabela Lima"
+  ],
+  "genero": "Autoajuda",
+  "editora": "Bem-Estar",
+  "avaliacoes": [
+    {
+      "usuario": "Luis111",
+      "pontuacao": 4
+    },
+    {
+      "usuario": "Amanda222",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Carlos333",
+      "pontuacao": 4.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de35"
+  },
+  "titulo": "Heróis do Futuro",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Lucia Oliveira",
+    "Victor Silva"
+  ],
+  "genero": "Fantasia",
+  "editora": "Épica",
+  "avaliacoes": [
+    {
+      "usuario": "Sophia444",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Andre555",
+      "pontuacao": 3.7
+    },
+    {
+      "usuario": "Gabriel666",
+      "pontuacao": 4.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de36"
+  },
+  "titulo": "A Magia das Estações",
+  "ano_publicacao": 2021,
+  "autores": [
+    "Gabriel Santos",
+    "Julia Oliveira"
+  ],
+  "genero": "Infantil",
+  "editora": "Mágica Kids",
+  "avaliacoes": [
+    {
+      "usuario": "Ana999",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Pedro111",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Larissa222",
+      "pontuacao": 3.8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de37"
+  },
+  "titulo": "Código Secreto",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Mariana Lima",
+    "Eduardo Silva"
+  ],
+  "genero": "Tecnologia",
+  "editora": "Tech Mysteries",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas444",
+      "pontuacao": 4.9
+    },
+    {
+      "usuario": "Isabel555",
+      "pontuacao": 4.2
+    },
+    {
+      "usuario": "Gabriel666",
+      "pontuacao": 3.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de38"
+  },
+  "titulo": "O Poder da Natureza",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Fernanda Oliveira",
+    "Carlos Santos"
+  ],
+  "genero": "Meio Ambiente",
+  "editora": "EcoLivros",
+  "avaliacoes": [
+    {
+      "usuario": "Luis789",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Camila999",
+      "pontuacao": 4
+    },
+    {
+      "usuario": "Pedro111",
+      "pontuacao": 4.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de39"
+  },
+  "titulo": "O Mistério do Farol",
+  "ano_publicacao": 2022,
+  "autores": [
+    "Miguel Santos",
+    "Larissa Lima"
+  ],
+  "genero": "Suspense",
+  "editora": "Enigmas",
+  "avaliacoes": [
+    {
+      "usuario": "Elena222",
+      "pontuacao": 3.5
+    },
+    {
+      "usuario": "Marco333",
+      "pontuacao": 4.7
+    },
+    {
+      "usuario": "Fernanda444",
+      "pontuacao": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de3a"
+  },
+  "titulo": "Desbravando o Desconhecido",
+  "ano_publicacao": 2021,
+  "autores": [
+    "Victor Oliveira",
+    "Sophie Lima"
+  ],
+  "genero": "Aventura",
+  "editora": "Exploradora",
+  "avaliacoes": [
+    {
+      "usuario": "Lucas555",
+      "pontuacao": 4.8
+    },
+    {
+      "usuario": "Isabel666",
+      "pontuacao": 3.9
+    },
+    {
+      "usuario": "Gabriel777",
+      "pontuacao": 4.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6563d271b5b12cd25268de3b"
+  },
+  "titulo": "A Arte da Fotografia",
+  "ano_publicacao": 2023,
+  "autores": [
+    "Carlos Lima",
+    "Mariana Oliveira"
+  ],
+  "genero": "Arte",
+  "editora": "Imagem e Arte",
+  "avaliacoes": [
+    {
+      "usuario": "Sophia111",
+      "pontuacao": 4
+    },
+    {
+      "usuario": "Andre222",
+      "pontuacao": 4.5
+    },
+    {
+      "usuario": "Gabriel333",
+      "pontuacao": 4.8
+    }
+  ]
+}]
